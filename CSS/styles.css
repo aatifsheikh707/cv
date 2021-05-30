@@ -24,6 +24,9 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  margin: 0 6px;
 }
 
 a:hover{
@@ -45,15 +48,9 @@ a:hover{
   padding-top: 30px;
   padding-bottom: 10px;
   color: #EAF6F6;
-  font-weight:bolder;
-  word-spacing: 1em;
+  font-family: 'Merriweather', serif;
 }
-.footer_link {
-  color: #11999E;
-  text-decoration: none;
-  font-size: 1.02rem;
- 
-}
+
 
 
 .cc{
