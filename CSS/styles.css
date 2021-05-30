@@ -1,0 +1,159 @@
+body {
+  margin: 0%;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Kalam', cursive;
+  font-size: 4.0rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.8rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #11999E;
+  font-size: 1.7rem;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.top_container {
+  position: relative;
+  display: inline-block;
+}
+
+
+.middle_container {
+  margin: 50px auto 50px auto;
+}
+
+.bottom_container {
+  background-color: #66BFBF;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #EAF6F6;
+  font-weight:bolder;
+  word-spacing: 1em;
+}
+.footer_link {
+  color: #11999E;
+  text-decoration: none;
+  font-size: 1.02rem;
+ 
+}
+
+
+.cc{
+  padding-top: 30px;
+  font-size: 0.9rem;
+  margin-top: 0;
+  word-spacing: normal;
+}
+
+.cont{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 10%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%; /* Set the width of the positioned div */
+}
+
+.cont_o{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 30%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%; /* Set the width of the positioned div */
+}
+
+.web_developer {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.skill_row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.skill_img {
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+
+.profile_img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: gray;
+  width: 4%;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.btn {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Brush Script MT;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 12px;
+  background-color: #11999E;
+  -webkit-box-shadow: 0 0 0 0 #000000;
+  -moz-box-shadow: 0 0 0 0 #000000;
+  box-shadow: 0 0 0 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  border: solid #11999E 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.contact_me {
+  margin: 100px auto 100px auto;
+}
