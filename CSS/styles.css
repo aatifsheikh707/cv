@@ -8,6 +8,9 @@ h1 {
   font-family: 'Kalam', cursive;
   font-size: 4.0rem;
   color: #66BFBF;
+  margin-top: 0;
+  padding-top: 120px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -34,9 +37,9 @@ a:hover{
 }
 
 .top_container {
-  position: relative;
+  background-color: #DDE5F2;
+  margin-bottom: 0;
 }
-
 
 .middle_container {
   margin: 50px auto 50px auto;
@@ -49,7 +52,12 @@ a:hover{
   color: #EAF6F6;
   font-family: 'Merriweather', serif;
 }
-
+.top_container h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-bottom: 150px;
+  margin-top: 0;
+}
 
 
 .cc{
@@ -59,20 +67,9 @@ a:hover{
   word-spacing: normal;
 }
 
-.cont{
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  margin: 0px auto;
-  text-align: center;
-  
-} 
 
 
-.cont h2 {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
+
 
 .skill_row {
   width: 50%;
@@ -140,4 +137,8 @@ hr {
 
 .contact_me {
   margin: 100px auto 100px auto;
+}
+
+.mountain {
+  display: block;
 }
