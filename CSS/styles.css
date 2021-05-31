@@ -35,7 +35,6 @@ a:hover{
 
 .top_container {
   position: relative;
-  display: inline-block;
 }
 
 
@@ -62,27 +61,15 @@ a:hover{
 
 .cont{
   position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 10%; /* Adjust this value to move the positioned div up and down */
+  top: 10%;
+  width: 100%;
+  margin: 0px auto;
   text-align: center;
-  width: 60%; /* Set the width of the positioned div */
-}
+  
+} 
 
-.cont_o{
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 30%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
-}
 
-.web_developer {
+.cont h2 {
   font-size: 1.8rem;
   font-weight: bold;
 }
